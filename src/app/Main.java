@@ -9,6 +9,10 @@ public class Main {
         System.out.println("My app for Users!");
         System.out.println("Version 1.0");
         initVars();
+        handleData();
+    }
+
+    private static void handleData() {
         int c = add(a, b);
         System.out.println(c);
         int d = multiply(a, b);
